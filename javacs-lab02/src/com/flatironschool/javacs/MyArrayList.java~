@@ -72,7 +72,7 @@ public class MyArrayList<E> implements List<E> {
 		E elt = array[index];
 		array[index]= element;
 		for(int i = index+1; i<size; i++) {
-		    elt = array[i];
+		    elt = array[i]
 		    array[i+1]=array[i];
 		}
 	}
